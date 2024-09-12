@@ -1,0 +1,22 @@
+.main{
+    width: 200px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 111, 187);
+    margin: auto;
+    border-left:5px double black ;
+    border-bottom:5px solid black;
+    border-right: 5px dashed black;
+    border-top: 5px dotted black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-image: url("../audio/free-nature-images.jpg");
+    
+}
+body {
+    background-image: url("../audio/free-nature-images.jpg");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position:left;
+}
