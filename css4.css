@@ -11,12 +11,29 @@
     padding: 20px;
     box-sizing: border-box;
     border-radius: 12px;
-    background-image: url("../audio/free-nature-images.jpg");
+    background-image: url("../Work1/free-nature-images.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.new{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 111, 187);
+    margin: auto;
+    border-left:5px double black ;
+    border-bottom:5px solid black;
+    border-right: 5px dashed black;
+    border-top: 5px dotted black;
+    padding: 20px;
+    background-image: url(../Work1/tree-736885_1280.jpg);
+    height: 200vh;
     
 }
 body {
-    background-image: url("../audio/free-nature-images.jpg");
+    background-image: url("../Work1/free-nature-images.jpg");
     background-size: 200px 200px;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-position:left;
+    background-attachment: fixed;
 }

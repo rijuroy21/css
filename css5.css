@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.main {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style:normal;
+    line-height: 1.5;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration-line:underline ;
+    text-decoration-color:rgb(0, 0, 0) ;
+    text-decoration-style:double ;
+    text-decoration-thickness:5px ;
+    text-indent: 600px;
+    text-shadow: 2px 2px 5px rgb(106, 112, 201);
+}

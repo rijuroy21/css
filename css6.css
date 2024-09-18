@@ -1,0 +1,7 @@
+.main{
+    position: relative;
+    top: 10px;
+    left: 60px;
+    min-height: 30px;
+    max-height: 60px;
+}
