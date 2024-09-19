@@ -1,0 +1,8 @@
+.main{
+    height:300px;
+    max-width:800px;
+    min-width: 100px;
+    background-color: rgb(255, 0, 0);
+    overflow:visible;
+    opacity: 1;
+}
