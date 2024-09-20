@@ -1,0 +1,7 @@
+ul ::marker{
+    color:green;
+    font-size:20px;
+}
+input::placeholder{
+    color: red;
+}

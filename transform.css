@@ -1,0 +1,9 @@
+.main {
+    width: 100px;
+    height:100px;
+    background-color: red;
+}
+.main:hover{
+    transform:rotate(360deg) translate(300px) ;
+    transition:2s ease;
+}
