@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar</title>
-    <link rel="stylesheet" href="animation.css">
+    <title>Animation</title>
+    <style>
+        @keyframes move {
+            from {
+                transform: rotate(0deg) translate(300px);
+            }
+
+            to {
+                transform: rotate(360deg) translate(300px);
+            }
+        }
+
+        @keyframes moon {
+            from {
+                transform: rotate(0deg) translate(80px);
+            }
+
+            to {
+                transform: rotate(360deg) translate(80px);
+            }
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .main{
+            border-radius: 50PX;
+            width: 100PX;
+            height: 100px;
+            animation-name: rotate;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0S;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        .full {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            position: absolute;
+            top: 0px;
+        }
+
+        .moon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            animation-name: moon;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        .main {
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sun {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
-<body>
-    <div class="main">
-        <img src="../Work1/pngwing.com (copy).png " height="100px" >
+
+<body style="background-color: black;">
+    <div class="main1">
+        <div class="full">
+            <div class="moon"><img src="../Work1/pngwing.com (3rd copy).png"></div>
+            <div class="main"><img src="../Work1/pngwing.com (4th copy).png"></div>
+        </div>
+        <div class="sun"><img src="../Work1/pngwing.com (copy).png" alt=""></div>
     </div>
 </body>
 </html>

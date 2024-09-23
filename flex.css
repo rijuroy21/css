@@ -1,0 +1,27 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.a{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+.b{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    flex: 2;
+}
+.c{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    flex: 1;
+   
+}
