@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    height: 300px;
+    gap: 10px;
+}
+.a{
+    background-image: url(../Work1/21-maserati-mc20_autocar_1.webp);
+    grid-row-start: 1;
+    grid-column-end: 3;
+}
+    
+.b{
+    background-image: url(../Work1/360_F_537325726_GtgjRiyc37BLPn9OmisBVVZec9frLaL0.jpg);
+    grid-row-start: 1;
+    grid-row-end: 4;
+   grid-column-start: 4;
+   grid-column-end: 4;
+}
+.c{
+   background-image: url(../Work1/360_F_537325759_ZOVFqu94cA76Fb6xRXXTa4pVqnX6g5Ey.jpg);
+}
+    
+.d{
+  background-image: url(../Work1/9.\ DeLorean-Alpha-5\ [DeLorean].webp);
+   
+}
+.e{
+    background-image: url(../Work1/mc20-right-front-three-quarter.webp);
+}
+    
+.f{
+    background-image: url(../Work1/maserati-earlier-this-year-issued-a-hybrid-version-of-its-ghibli-luxury-sedan-.jpg)
+    
+}
