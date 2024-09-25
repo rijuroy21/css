@@ -1,0 +1,28 @@
+.main{
+    display: grid;
+    grid-template-areas: "item1 item2 item2 item3";
+    height: 50px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 78, 78);
+    grid-area: item1;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 71, 68);
+    grid-area:item2 ;
+}
+.c{
+    background-color: rgb(128, 128, 240);
+    grid-area: item3;
+}
+.c ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
