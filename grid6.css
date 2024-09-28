@@ -1,0 +1,30 @@
+.main {
+    display: grid;
+    grid-template-areas: "item1 item2 item3";
+    height: 100px;
+    width: 300px;
+    gap: 5px;
+}
+
+.a {
+    background-color: red;
+    grid-area: item1;
+}
+
+.b {
+    background-color: rgb(255, 217, 0);
+    grid-area: item2;
+}
+
+.c {
+    background-color: rgb(123, 255, 0);
+    grid-area: item3;
+}
+
+@media(max-width:769px) {
+    .main {
+        grid-template-areas: "item1"
+            "item2"
+            "item3";
+    }
+}

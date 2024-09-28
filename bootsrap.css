@@ -1,0 +1,5 @@
+@media(max-width:321px) {
+    .sr1, .inp{
+        display: none;
+    }
+}
